@@ -306,15 +306,12 @@ img {
 }
 
 .team-member {
-  margin-bottom: var(--h2-margin-bottom);
-}
-
-.team-member {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-text-color);
+  margin-bottom: var(--h2-margin-bottom);
 }
 .position-member {
   font-size: var(--dominant-type-font-size);
@@ -322,7 +319,30 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--p-text-color);
+  margin-bottom: var(--h2-margin-bottom);
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+
 /* ============== SECTION-3 team ============== */
 
 /* ============== Footer ============== */
