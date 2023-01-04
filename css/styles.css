@@ -371,6 +371,7 @@ img {
   font-size: 36px;
   margin-bottom: 72px;
   justify-content: center;
+  color: var(--navy-text-color);
 }
 
 .customers-list {
@@ -386,20 +387,22 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.customers-icon {
+  fill: #8e8f99;
+  padding: 16px 32px;
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
-.customers-icon {
-  fill: #8e8f99;
-}
-
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon,
 .customers-link:active .customers-icon {
   fill: #404bbf;
+  border-color: #404bbf;
 }
 
 /* ============== SECTION-4 customers ============== */
