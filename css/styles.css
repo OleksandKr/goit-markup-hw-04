@@ -359,6 +359,50 @@ img {
 
 /* ============== SECTION-3 team ============== */
 
+/* ============== SECTION-4 customers ============== */
+
+/* .customers-container {
+  height: 200px;
+} */
+
+.customers-title {
+  display: flex;
+  font-size: 36px;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+}
+
+.customers-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.customers-icon {
+  fill: #8e8f99;
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon,
+.customers-link:active .customers-icon {
+  fill: #404bbf;
+}
+
+/* ============== SECTION-4 customers ============== */
+
 /* ============== Footer ============== */
 .footer {
   background: var(--navy-text-color);
