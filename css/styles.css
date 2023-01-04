@@ -350,6 +350,7 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  fill: #f4f4fd;
 }
 
 .social-list-link:hover,
@@ -375,6 +376,7 @@ img {
 .customers-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .customers-item {
@@ -386,7 +388,6 @@ img {
   justify-content: center;
   width: 168px;
   height: 88px;
-  padding: 16px 32px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
@@ -409,6 +410,7 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -436,6 +438,39 @@ img {
   max-width: 264px;
   margin-top: 16px;
 }
+
+.social-media {
+  color: var(--hover-text-button-color);
+  justify-content: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-item {
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #f4f4fd;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-media-icon {
+}
+
 /* ============== Footer ============== */
 
 /* ============== PORTFOLIO ============== */
