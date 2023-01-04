@@ -228,6 +228,20 @@ img {
   margin-right: 24px;
 }
 
+.advantages-icon {
+  display: flex;
+  padding: 24px 100px;
+  height: 112px;
+  margin-bottom: var(--h2-margin-bottom);
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+
+.advantages-icon-list {
+  width: 64px;
+  height: 64px;
+}
+
 .item {
   font-size: 20px;
   line-height: 1.2;
