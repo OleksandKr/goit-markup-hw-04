@@ -409,6 +409,15 @@ img {
 
 /* ============== Footer ============== */
 
+.footer > .container {
+  display: flex;
+  gap: 120px;
+}
+
+.container-footer {
+  align-items: flex-start;
+}
+
 .footer {
   background: var(--navy-text-color);
   padding-top: 100px;
@@ -439,20 +448,26 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  max-width: 264px;
   margin-top: 16px;
+  max-width: 264px;
+}
+
+.container-social {
 }
 
 .social-media {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--hover-text-button-color);
-  justify-content: center;
-  display: flex;
   margin-bottom: 16px;
 }
 .social-media-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .social-media-item {
 }
